@@ -14,6 +14,7 @@ public class ClientCode {
 		RemoteController remoteController = new RemoteController();
 		remoteController.setCommand(lightsOnCommand);
 		remoteController.pressButton();
+		remoteController.pressButton();
 
 		remoteController.setCommand(lightsOffCommand);
 		remoteController.pressButton();
